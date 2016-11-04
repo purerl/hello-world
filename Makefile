@@ -3,7 +3,7 @@
 all: ps erl
 
 ps:
-	pserlc 'bower_components/**/*.purs' 'src/**/*.purs'
+	psc-package sources | xargs pserlc 'src/**/*.purs'
 
 erl:
 	mkdir -p ebin
