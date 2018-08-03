@@ -1,6 +1,6 @@
 {
     "name": "hello-world",
-    "set": "erl-0.11.6",
+    "set": "erl-0.12.0-20180730",
     "source": "https://github.com/purerl/package-sets.git",
     "depends": [
         "console",

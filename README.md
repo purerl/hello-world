@@ -1,9 +1,14 @@
 # hello-world
 PureScript Erlang hello world
 
-Have a look at the Makefile to see how to build and run with standalone `erlc` command. [Related blog post](http://nwolverson.uk/devlog/2016/10/02/purerl-hello-world.html)
+### Requirements
 
-Build:
+* [purerl fork of the PureScript compiler](https://github.com/purerl/purescript), available on the `PATH` as `purs`
+* [psc-package](https://github.com/purescript/psc-package) - standard version, using the [purerl package set](https://github.com/purerl/package-sets)
+
+### Build and run
+
+Build: run `psc-package build`, or if installed, `pulp build`, or:
 ```shell
 make
 ```

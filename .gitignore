@@ -5,3 +5,4 @@
 /ebin/
 /.psci*
 /src/.webpack.js
+/.psc-package/
